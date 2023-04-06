@@ -1,0 +1,26 @@
+.cover__overlay {
+  display: block;
+  height: 100%;
+  padding: 245px 312px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__overlay {
+    padding: 195px 232px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__overlay {
+    padding: 115px 104px;
+  }
+}
+  
+@media screen and (max-width: 767px) {
+  .cover__overlay {
+    padding: 33px 16px;
+  }
+}
