@@ -8,8 +8,8 @@
   color: inherit;
 }
 
-.header__lang-link:first-child {
-  text-decoration-line: underline;
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
